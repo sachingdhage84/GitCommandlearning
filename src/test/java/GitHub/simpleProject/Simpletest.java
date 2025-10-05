@@ -19,5 +19,6 @@ public class Simpletest {
         driver.findElement(By.xpath("//input[@type='password']")).sendKeys("admin123");
         Assert.assertEquals(driver.getTitle(), "OrangeHRM", "Invalid title");
         //New changes
+        System.out.println("Test completed successfully");
     }
 }
